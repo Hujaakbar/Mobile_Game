@@ -5,6 +5,7 @@ _This game was built for practice purposes only in October 2020._
 <p align="center">
 <img src="demoImages/demo4.jpg"  alt="demo" width="35%"/>
 </p>
+
 ### The plot:
 
 A character named Kojo should avoid bombs while gathering diamonds.
@@ -13,6 +14,7 @@ A character named Kojo should avoid bombs while gathering diamonds.
 <img src="demoImages/demo2.jpg" alt="demo" width="
 30%"/>
 </p>
+
 ### Details & Features :
 
 - The app uses the libGDX library
