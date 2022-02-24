@@ -6,6 +6,7 @@ _This game was built for practice purposes only in October 2020._
 <img src="demoImages/demo4.jpg"  alt="demo" width="35%"/>
 </p>
 
+👉 [Demo video](https://youtu.be/d9F16xipcEc)
 ---
 
 ### The plot:
