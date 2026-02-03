@@ -1,12 +1,12 @@
 # Yamenai Game
 
-_This game was built for practice purposes only in October 2020._
+_This game was developed **for practice purposes only** in October 2020._
 
 <p align="center">
 <img src="demoImages/demo4.jpg"  alt="demo" width="35%"/>
 </p>
 
-👉 [Demo video](https://youtu.be/d9F16xipcEc)
+
 ---
 
 ### The plot:
