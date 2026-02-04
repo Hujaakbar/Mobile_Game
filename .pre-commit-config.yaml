@@ -1,0 +1,32 @@
+repos:
+# -------------- BASE --------------
+  ## This is to show how to create a local pre-commit hooks
+  # - repo: local
+  #   hooks:
+  #     - id: python-utf8
+  #       name: python-utf8
+  #       entry: bash -c "export PYTHONUTF8=1"
+  #       language: system
+  #       pass_filenames: false
+
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+    # Check for files that contain merge conflict strings.
+    - id: check-merge-conflict
+
+    # Checks for the existence of private keys.
+    - id: detect-private-key
+
+    - id: detect-aws-credentials
+      args: [--allow-missing-credentials]
+
+    - id: trailing-whitespace
+      args: [--markdown-linebreak-ext=md]
+
+    - id: end-of-file-fixer
+
+  - repo: https://github.com/gitleaks/gitleaks
+    rev: v8.30.0
+    hooks:
+    - id: gitleaks
